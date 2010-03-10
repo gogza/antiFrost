@@ -1,0 +1,108 @@
+
+
+Processing HomeController#home (for 127.0.0.1 at 2010-03-10 11:37:57) [GET]
+Rendering home/home
+Completed in 24ms (View: 19, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-03-10 12:13:38) [GET]
+
+ActionView::MissingTemplate (Missing template pages/home.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-03-10 12:22:00) [GET]
+Rendering pages/home
+
+ActionView::TemplateError (Inconsistent indentation: "  \t" was used for indentation, but the rest of the document was indented using 1 tab.) on line #7 of app/views/pages/home.html.haml:
+4: 		%meta{'http-equiv' => 'Content-Type', :content => "text/html; charset=iso-8859-1"}
+5: 		%title antiFrost
+6: 	%body
+7:   	%div Welcome to antiFrost!
+8:   	%div This site is under construction
+9: 		
+
+    app/views/pages/home.html.haml:7
+    haml (2.2.20) lib/haml/precompiler.rb:169:in `tabs'
+    haml (2.2.20) lib/haml/precompiler.rb:151:in `instance_eval'
+    haml (2.2.20) lib/haml/precompiler.rb:151:in `tabs'
+    haml (2.2.20) lib/haml/precompiler.rb:1007:in `block_opened?'
+    haml (2.2.20) lib/haml/precompiler.rb:758:in `render_tag'
+    haml (2.2.20) lib/haml/precompiler.rb:232:in `process_line'
+    haml (2.2.20) lib/haml/precompiler.rb:196:in `precompile'
+    haml (2.2.20) lib/haml/engine.rb:114:in `initialize'
+    haml (2.2.20) lib/haml/template/plugin.rb:27:in `new'
+    haml (2.2.20) lib/haml/template/plugin.rb:27:in `compile'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.20) lib/sass/plugin/rails.rb:20:in `process'
+
+Rendered rescues/_trace (194.4ms)
+Rendered rescues/_request_and_response (2.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-03-10 12:24:38) [GET]
+Rendering pages/home
+
+ActionView::TemplateError (Inconsistent indentation: 4 spaces were used for indentation, but the rest of the document was indented using 1 tab.) on line #7 of app/views/pages/home.html.haml:
+4: 		%meta{'http-equiv' => 'Content-Type', :content => "text/html; charset=iso-8859-1"}
+5: 		%title antiFrost
+6: 	%body
+7:     %div Welcome to antiFrost!
+8:     %div This site is under construction
+9: 		
+
+    app/views/pages/home.html.haml:7
+    haml (2.2.20) lib/haml/precompiler.rb:169:in `tabs'
+    haml (2.2.20) lib/haml/precompiler.rb:151:in `instance_eval'
+    haml (2.2.20) lib/haml/precompiler.rb:151:in `tabs'
+    haml (2.2.20) lib/haml/precompiler.rb:1007:in `block_opened?'
+    haml (2.2.20) lib/haml/precompiler.rb:758:in `render_tag'
+    haml (2.2.20) lib/haml/precompiler.rb:232:in `process_line'
+    haml (2.2.20) lib/haml/precompiler.rb:196:in `precompile'
+    haml (2.2.20) lib/haml/engine.rb:114:in `initialize'
+    haml (2.2.20) lib/haml/template/plugin.rb:27:in `new'
+    haml (2.2.20) lib/haml/template/plugin.rb:27:in `compile'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.20) lib/sass/plugin/rails.rb:20:in `process'
+
+Rendered rescues/_trace (147.0ms)
+Rendered rescues/_request_and_response (10.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-03-10 12:25:20) [GET]
+Rendering pages/home
+
+ActionView::TemplateError (Inconsistent indentation: 4 spaces were used for indentation, but the rest of the document was indented using 1 tab.) on line #7 of app/views/pages/home.html.haml:
+4: 		%meta{'http-equiv' => 'Content-Type', :content => "text/html; charset=iso-8859-1"}
+5: 		%title antiFrost
+6: 	%body
+7:     %div Welcome to antiFrost!
+8:     %div This site is under construction
+9: 		
+
+    app/views/pages/home.html.haml:7
+    haml (2.2.20) lib/haml/precompiler.rb:169:in `tabs'
+    haml (2.2.20) lib/haml/precompiler.rb:151:in `instance_eval'
+    haml (2.2.20) lib/haml/precompiler.rb:151:in `tabs'
+    haml (2.2.20) lib/haml/precompiler.rb:1007:in `block_opened?'
+    haml (2.2.20) lib/haml/precompiler.rb:758:in `render_tag'
+    haml (2.2.20) lib/haml/precompiler.rb:232:in `process_line'
+    haml (2.2.20) lib/haml/precompiler.rb:196:in `precompile'
+    haml (2.2.20) lib/haml/engine.rb:114:in `initialize'
+    haml (2.2.20) lib/haml/template/plugin.rb:27:in `new'
+    haml (2.2.20) lib/haml/template/plugin.rb:27:in `compile'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.20) lib/sass/plugin/rails.rb:20:in `process'
+
+Rendered rescues/_trace (116.7ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-03-10 12:35:54) [GET]
+Rendering pages/home
+Completed in 87ms (View: 81, DB: 0) | 200 OK [http://localhost/]
