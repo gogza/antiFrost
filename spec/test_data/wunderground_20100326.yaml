@@ -1,0 +1,36 @@
+--- 
+- :title: "Current Conditions : 11.5C, Scattered Clouds - 1:45 PM CET Mar. 26"
+  :link: http://www.wunderground.com/global/stations/06451.html
+  :guid: "1269607543"
+  :pubDate: 2010-03-26 13:45:00 -07:00
+  :description: "Temperature: 11.5&#176;C | Humidity: 73% | Pressure: 1006.0hPa (Steady) | Conditions: Scattered Clouds | Wind Direction: SW | Wind Speed: 12.9km/h<img src=\"http://server.as5000.com/AS5000/adserver/image?ID=WUND-00071&C=0\" width=\"0\" height=\"0\" border=\"0\"/>"
+- :title: Forecast for Friday as of Mar. 26 1:00 AM CET
+  :link: http://www.wunderground.com/global/stations/06451.html
+  :guid: 1269604800-1-day
+  :pubDate: 2010-03-25 17:00:00 -07:00
+  :description: Chance of Rain. High:13 &amp;deg; C.
+- :title: Forecast for Friday Night as of Mar. 26 1:00 AM CET
+  :link: http://www.wunderground.com/global/stations/06451.html
+  :guid: 1269604800-1-night
+  :pubDate: 2010-03-25 17:00:00 -07:00
+  :description: Chance of Rain. Low:7 &amp;deg; C.
+- :title: Forecast for Saturday as of Mar. 26 1:00 AM CET
+  :link: http://www.wunderground.com/global/stations/06451.html
+  :guid: 1269691200-2-day
+  :pubDate: 2010-03-25 17:00:00 -07:00
+  :description: Chance of Rain. High:12 &amp;deg; C.
+- :title: Forecast for Saturday Night as of Mar. 26 1:00 AM CET
+  :link: http://www.wunderground.com/global/stations/06451.html
+  :guid: 1269691200-2-night
+  :pubDate: 2010-03-25 17:00:00 -07:00
+  :description: Chance of Rain. Low:7 &amp;deg; C.
+- :title: Forecast for Sunday as of Mar. 26 1:00 AM CET
+  :link: http://www.wunderground.com/global/stations/06451.html
+  :guid: 1269777600-3-day
+  :pubDate: 2010-03-25 17:00:00 -07:00
+  :description: Chance of Rain. High:11 &amp;deg; C.
+- :title: Forecast for Sunday Night as of Mar. 26 1:00 AM CET
+  :link: http://www.wunderground.com/global/stations/06451.html
+  :guid: 1269777600-3-night
+  :pubDate: 2010-03-25 17:00:00 -07:00
+  :description: Chance of Rain. Low:4 &amp;deg; C.

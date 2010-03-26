@@ -12,6 +12,12 @@ require 'cucumber/rails/world'
 require 'cucumber/rails/active_record'
 require 'cucumber/web/tableish'
 
+# added by gogza
+$: << File.join(File.dirname(__FILE__), "/../../lib/forecasters" )
+require 'forecast_fetcher'
+require 'forecast_interpreter'
+# end
+
 require 'webrat'
 require 'webrat/core/matchers'
 
