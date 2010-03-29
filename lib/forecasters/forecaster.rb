@@ -1,12 +1,15 @@
 module Forecasters
     class Forecaster
       
-      def initialize
-        @fetcher = ForecastFetcher.new
+      def initialize(fetcher = ForecastFetcher.new, interpreter = ForecastInterpreter.new)
+        @fetcher = fetcher
+        @interpreter = interpreter
       end
       
       def tonightsTemperature
-        @fetcher.fetch
+        rawForecasts = @fetcher.fetch
+        forecasts = @interpreter.interpret rawForecasts
+        return forecasts[:tonight][:temperature]
       end
       
     end  

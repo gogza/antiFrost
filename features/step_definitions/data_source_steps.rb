@@ -17,7 +17,7 @@ Given /^wunderground thinks it will "(\d+)" degrees centigrade tonight$/ do |tem
   class Forecasters::ForecastFetcher
     def fetch
       yaml = File.read("./spec/test_data/wunderground_20100326.yaml.mock")
-      feed = YAML::load(yaml)
+      return YAML::load(yaml)
     end
   end
   

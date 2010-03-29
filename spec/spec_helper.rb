@@ -7,8 +7,10 @@ require 'spec/rails'
 
 #Added by gogza
 $: << File.join(File.dirname(__FILE__), "/../lib/forecasters" )
-require 'fake_forecast_fetcher'
+require 'forecaster'
+require 'forecast_fetcher'
 require 'forecast_interpreter'
+#end
 
 # Uncomment the next line to use webrat's matchers
 #require 'webrat/integrations/rspec-rails'
