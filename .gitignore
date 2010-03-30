@@ -1,0 +1,7 @@
+# Will exclude the .project file
+
+# Will exclude all .log files
+*.log
+
+# Will exclude any test data created by automated tests
+spec/test_data/*.mock
