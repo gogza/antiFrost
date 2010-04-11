@@ -5,3 +5,7 @@
 
 # Will exclude any test data created by automated tests
 spec/test_data/*.mock
+
+# Will exclude any vim temporart files
+*.*~
+
