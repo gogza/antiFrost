@@ -10,6 +10,6 @@ Feature: First impressions.
   Scenario: Display the forecast low for tonight
     Given wunderground thinks it will "7" degrees centigrade tonight
     When I go to the home page
-    Then I should see "tonight's forecast low is 7"
+    Then I should see "Tonight's forecast low is 7"
     
   

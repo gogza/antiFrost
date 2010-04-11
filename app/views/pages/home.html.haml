@@ -4,7 +4,9 @@
     %meta{'http-equiv' => 'Content-Type', :content => "text/html; charset=iso-8859-1"}
     %meta{:name => "google-site-verification", :content => "ovSH6IQNTafwJCaH2tvx5l2QIYWpuAuh9P0bsdFlmkw"}
     %title antiFrost
+    = stylesheet_link_tag 'base'
+    = stylesheet_link_tag 'common'   
   %body
-    %div Welcome to antiFrost!
-    %div tonight's forecast low is #{h @temperature} degrees C
+    %h1 antiFrost
+    #forecast Tonight's forecast low is #{h @temperature}&deg;C
 		
