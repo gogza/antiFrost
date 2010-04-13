@@ -8,4 +8,5 @@ spec/test_data/*.mock
 
 # Will exclude any vim temporart files
 *.*~
+*.swp
 

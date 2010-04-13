@@ -7,6 +7,9 @@
     = stylesheet_link_tag 'base'
     = stylesheet_link_tag 'common'   
   %body
-    %h1 antiFrost
-    #forecast Tonight's forecast low is #{h @temperature}&deg;C
-		
+    #main
+      #header
+        %img{:src => 'images/antifrostlogo.png'}
+      #content
+        %p Tonight's forecast low is #{h @temperature}&deg;C
+      #footer
